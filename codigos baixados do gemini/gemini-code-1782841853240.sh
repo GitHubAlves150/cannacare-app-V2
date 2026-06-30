@@ -1,3 +1,4 @@
+cat > cmd/api/main.go << 'EOF'
 package main
 
 import (
@@ -60,3 +61,4 @@ func main() {
 		log.Fatalf("Erro ao iniciar o servidor: %v", err)
 	}
 }
+EOF
